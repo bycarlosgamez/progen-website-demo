@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="img/progen-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROGEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html">
+            <img class="logo" src="img/logo.svg" alt="Progen" />
+          </a>
+          <button class="menu-btn">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" />
+            </svg>
+            <svg
+              class="none"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
+              />
+            </svg>
+          </button>
+          <nav class="menu" id="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="proceso.html">Proceso</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <!-- <li><a href="#">Testimonios</a></li> -->
+              <li class="menu-btn">
+                <a class="button | display-sm-none" href="contacto.html"
+                  >Contáctanos</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a class="button | display-sm-none" href="contacto.html"
+            >Contáctanos</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="padding-block-900">
+        <div class="container">
+          <div class="flex-column flow text-align-center">
+            <h1 class="fs-primary-heading fw-bold child-center">
+              Contacta a nuestro equipo
+            </h1>
+            <p data-width="large" class="child-center fw-semi-bold">
+              Si tienes dudas o te interesa hablar  sobre tu salud reproductiva,
+              por favor comunícate con nuestro equipo de especialistas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="padding-block-900">
+        <div class="container">
+          <div class="even-columns">
+            <div class="flow-sm padding-inline-700">
+              <form action="" class="flow-sm">
+                <div>
+                  <label for="name" required>Nombre:</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                  <label for="name" required>Email:</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                  <label for="message" required>Mensaje:</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <input
+                  class="button"
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  value="ENVIAR"
+                />
+              </form>
+            </div>
+            <div>
+              <address class="address flow text-neutral-400 padding-inline-700">
+                <div class="even-columns">
+                  <div>
+                    <p class="text-align-right padding-inline-700">UBICACIÓN</p>
+                  </div>
+                  <div>
+                    <p class="flex-column flow-sm">
+                      <span>Av. García Salinas #15e</span>
+                      <span>Colonia El Carmen</span>
+                      <span>C.P. 98608</span>
+                      <span>Guadalupe, Zac. Mexico</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="even-columns">
+                  <div>
+                    <p class="text-align-right padding-inline-700">CONTACTO</p>
+                  </div>
+                  <div>
+                    <p class="flex-column flow-sm">
+                      <span>
+                        <a class="address-link text-neutral-400" href="#">
+                          info@progenzac.com
+                        </a>
+                      </span>
+                      <span>
+                        <a class="address-link text-neutral-400" href="#">
+                          (492)-922-5003
+                        </a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="even-columns">
+                  <div>
+                    <p class="text-align-right padding-inline-700">HORARIOS</p>
+                  </div>
+                  <div class="flow-sm">
+                    <p class="flex-column flow-sm">
+                      <span>Lunes - Viernes</span>
+                      <span>09:00 - 20:00</span>
+                    </p>
+                    <p class="flex-column flow-sm">
+                      <span>Sábado</span>
+                      <span>09:00 - 14:00</span>
+                    </p>
+                  </div>
+                </div>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="primary-footer | bg-neutral-900 text-neutral-100 padding-block-700"
+    >
+      <div class="container">
+        <div class="primary-footer-wrapper">
+          <div class="footer--logo | flex-column">
+            <a href="index.html">
+              <img src="img/logo-blanco.svg" alt="Progen" />
+            </a>
+            <p>© Copyright CENFERZAC.</p>
+          </div>
+
+          <div class="footer--links">
+            <nav class="footer-nav">
+              <ul
+                class="flow-sm"
+                data-spacing="tight"
+                aria-label="Footer"
+                role="list"
+              >
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nuestro Proceso</a></li>
+                <li><a href="#">Nuestros Servicios</a></li>
+                <!-- <li><a href="#">Testimonios</a></li> -->
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Red Lara</a></li>
+                <li><a href="#">Políticas de privacidad</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer--adress">
+            <address class="flex-column flow-sm">
+              <span
+                ><a class="address-link" href="#">info@progenzac.com</a></span
+              >
+              <span><a class="address-link" href="#">(492)-922-5003</a></span>
+              <p class="flex-column flow-sm">
+                <span>Av. García Salinas #15e</span>
+                <span>Colonia El Carmen</span>
+                <span>C.P. 98608</span>
+                <span>Guadalupe, Zac. Mexico</span>
+              </p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -630,6 +630,53 @@ p[data-width="large"] {
   }
 }
 
+/* Concatco page */
+
+form > *,
+form > * > * {
+  display: block;
+  min-width: 100%;
+}
+
+form .button {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+form input,
+form textarea {
+  border: none;
+  background-color: var(--clr-accent-100);
+  border-radius: 0.25em;
+}
+
+form input:not([type="submit"]) {
+  height: 2em;
+}
+
+.address {
+  margin: var(--size-900) 0;
+}
+
+@media (min-width: 50em) {
+  .address {
+    margin: 0;
+  }
+}
+
+address .even-columns {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  text-align: left;
+}
+
+address p.flex-column.flow-sm {
+  align-items: flex-start;
+}
+
 /******************************************
 /* UTILITIES
 /*******************************************/
@@ -652,6 +699,10 @@ p[data-width="large"] {
 
 .text-align--cl {
   text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
 }
 
 @media (min-width: 50em) {
@@ -746,6 +797,14 @@ p[data-width="large"] {
   font-size: var(--fs-600);
 }
 
+.padding-inline-700 {
+  padding-inline: var(--size-700);
+}
+
+.padding-inline-900 {
+  padding-inline: var(--size-900);
+}
+
 .padding-block-700 {
   padding-block: var(--size-700);
 }
@@ -760,6 +819,10 @@ p[data-width="large"] {
 
 .margin-bottom-900 {
   margin-bottom: var(--size-900);
+}
+
+.margin-centered {
+  margin: 0 auto;
 }
 
 .none {
