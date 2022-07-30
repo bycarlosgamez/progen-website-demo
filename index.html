@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_MX">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="img/progen-icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PROGEN</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,7 +11,133 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Progen start</h1>
+    <header class="primary-header">
+      <div class="container">
+        <a href="index.html"><img src="img/logo.svg" alt="Progen"></a>
+        <nav class="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nuestro Proceso</a></li>
+            <li><a href="#">Nuestros Servicios</a></li>
+            <li><a href="#">Testimonios</a></li>
+          </ul>
+        </nav>
+        <a class="button" href="contacto.html">Contáctanos</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container even-columns">
+          <div>
+            <h1 class="fs-primary-heading fw-bold">Servicios medicos profesionales de reproducción asistida.</h1>
+          </div>
+          <p>Te ayudamos a complementar a tu familia.</p>
+          <a class="button" href="contacto.html">Contáctanos</a>
+          <div>
+            <img src="img/hero-img.svg" alt="Familia feliz">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <h2 class="fs-secondary-heading fw-bold">¿Qué hace a diferente PROGEN? </h2>
+              <p>Nos enfocamos en tus necesidades particulares medicas y personales de fetilidad.</p>
+            </div>
+            <div>
+              <ul class="numbered-list" role="list">
+                <li>
+                  <h3 class="fs-600 fw-bold">Confianza</h3>
+                  <p>Te ofrecemos las mejores opciones de tratamiento de acuerdo al diagnóstico.</p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">Dedicación</h3>
+                  <p>Te otorgamos el tiempo y apoyo apropiado para el diagnóstico.</p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">Compromiso</h3>
+                  <p>Te damos tranquilidad y esperanza con tratamientos adecuados.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel">
+        <h2 class="fs-secondary-heading">Lo que dicen de nosotros</h2>
+        <!-- Carrusel aqui -->
+        <a href="testimonios.html" class="button">Ver testimonios</a>
+      </section>
+
+      <section class=" cta | bg-accent-400 text-neutral-100">
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <h2 class="fs-seconday-heading fw-bold">Tu camino con PROGEN</h2>
+            </div>
+            <div>
+              <ol class="numbered-list" role="list">
+                <li>
+                  <h3 class="fs-600 fw-bold">Primera cita</h3>
+                  <p>Realizamos una valoración inicial de tu salud y de tu pareja y se piden estudios complementarios.</p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">Diagnostico</h3>
+                  <p>Revisamos los estudios complementarios para confirmar tus características particulares de fertilidad y de tu pareja.</p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">Tratamiento</h3>
+                  <p>Una vez concluido el diagnostico, te proponemos el tratamiento adecuado para ti y de tu pareja, con base en el diagnóstico.</p>
+                </li>
+                <li>
+                  <h3 class="fs-600 fw-bold">Seguimiento</h3>
+                  <p>Te acompañamos en cada paso del tratamiento.</p>
+                </li>
+              </ol>
+              <a href="servicios.html" class="button" data-type="inverted">Conoce nuestros servicios</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-neutral-900 text-neutral-100">
+      <div class="container even-columns">
+        <div>
+          <a href="index.html"><img src="img/logo.svg" alt="Progen"></a>
+          <p>© Copyright CENFERZAC.</p>
+        </div>
+        <div>
+          <nav class="footer-nav">
+            <ul aria-label="Footer" role="list">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Nuestro Proceso</a></li>
+              <li><a href="#">Nuestros Servicios</a></li>
+              <li><a href="#">Testimonios</a></li>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Red Lara</a></li>
+              <li><a href="#">Políticas de privacidad</a></li>
+            </ul>
+          </nav> 
+        </div>
+        <div>
+          <address>
+            <span><a href="#">info@progenzac.com</a></span>
+            <span><a href="#">(492)-922-5003</a></span>
+            <span>
+              Av. García Salinas #15e<br>
+              Colonia El Carmen<br>
+              C.P. 98608<br>
+              Guadalupe, Zac. Mexico
+            </span>
+          </address>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
