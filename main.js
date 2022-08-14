@@ -1,12 +1,18 @@
-const primaryHeader = document.querySelector('.primary-header');
-const navToggle = document.querySelector('.mobile-nav-toggle');
-const primaryNav = document.querySelector('.primary-nav');
+((d) => {
+    const $btnMenu = d.querySelector('.menu-btn');
+    const $menu = d.querySelector('.menu');
+     
+    $btnMenu.addEventListener('click', e => {
+        $btnMenu.firstElementChild.classList.toggle('none');
+        $btnMenu.lastElementChild.classList.toggle('none');
+        $menu.classList.toggle('is-active');
+    })
 
-navToggle.addEventListener('click', () => {
-    primaryNav.hasAttribute('data-visible') 
-        ?  navToggle.setAttribute('aria-expanded', false) 
-        :  navToggle.setAttribute('aria-expanded', true); 
-    primaryNav.toggleAttribute('data-visible');
-    primaryHeader.toggleAttribute('data-overlay');
+    d.addEventListener('click', e => {
+        if(!e.target.matches('.menu a')) return false;
 
-})
+        $btnMenu.firstElementChild.classList.remove('none');
+        $btnMenu.lastElementChild.classList.add('none');
+        $menu.classList.remove('is-active');
+    })
+})(document);
