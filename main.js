@@ -1,5 +1,4 @@
-// nav
-
+// nav menu
 ((d) => {
   const $btnMenu = d.querySelector(".menu-btn");
   const $menu = d.querySelector(".menu");
@@ -25,7 +24,6 @@ const slider = new A11YSlider(document.querySelector(".slider"), {
   dots: true,
   centerModer: true,
   arrows: false,
-  dots: true,
   responsive: {
     480: {
       dots: true, // dots enabled 480px and up

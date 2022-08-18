@@ -795,6 +795,10 @@ p[data-width="large"] {
   align-items: center;
 }
 
+.vertical-centered {
+  margin: auto;
+}
+
 .child-center {
   align-self: center;
 }
