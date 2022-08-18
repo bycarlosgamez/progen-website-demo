@@ -5,36 +5,68 @@
     <link rel="icon" type="image/svg+xml" href="img/progen-icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PROGEN</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css"
+    />
+    <script
+      src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"
+      defer
+    ></script>
   </head>
   <body>
     <header class="primary-header">
       <div class="container">
         <div class="nav-wrapper">
           <a href="index.html">
-            <img class="logo" src="img/logo.svg" alt="Progen">
+            <img class="logo" src="img/logo.svg" alt="Progen" />
           </a>
           <button class="menu-btn">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z"/>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" />
             </svg>
-            <svg class="none" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/>
+            <svg
+              class="none"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
+              />
             </svg>
           </button>
-          <nav class="menu" id="primary-navigation">	
+          <nav class="menu" id="primary-navigation">
             <ul aria-label="Primary" role="list" class="nav-list">
               <li><a href="index.html">Inicio</a></li>
               <li><a href="proceso.html">Proceso</a></li>
               <li><a href="servicios.html">Servicios</a></li>
-              <li><a href="#">Testimonios</a></li>
-              <li class="menu-btn"><a class="button | display-sm-none" href="contacto.html">Contáctanos</a></li>
+              <!-- <li><a href="#">Testimonios</a></li> -->
+              <li class="menu-btn">
+                <a class="button | display-sm-none" href="contacto.html"
+                  >Contáctanos</a
+                >
+              </li>
             </ul>
           </nav>
-          <a class="button | display-sm-none" href="contacto.html">Contáctanos</a>
+          <a class="button | display-sm-none" href="contacto.html"
+            >Contáctanos</a
+          >
         </div>
       </div>
     </header>
@@ -42,13 +74,18 @@
     <main id="inicio">
       <section class="padding-block-900">
         <div class="container even-columns">
-          <div class="flow">
-            <h1 class="fs-primary-heading fw-bold">Servicios medicos profesionales de reproducción asistida.</h1>
-            <p>Te ayudamos a complementar a tu familia, con los mejores y mas avanzados tratamientos disponibles en la actualidad.</p>
+          <div class="flow text-align--cl">
+            <h1 class="fs-primary-heading fw-bold">
+              Servicios medicos profesionales de reproducción asistida.
+            </h1>
+            <p>
+              Te ayudamos a complementar a tu familia, con los mejores y mas
+              avanzados tratamientos disponibles en la actualidad.
+            </p>
             <a class="button" href="contacto.html">Contáctanos</a>
           </div>
           <div>
-            <img class="hero-img" src="img/hero-img.svg" alt="Familia feliz">
+            <img class="hero-img" src="img/hero-img.svg" alt="Familia feliz" />
           </div>
         </div>
       </section>
@@ -57,27 +94,47 @@
         <div class="container">
           <div class="even-columns">
             <div class="flow">
-              <h2 class="fs-secondary-heading fw-bold">¿Qué hace a diferente PROGEN? </h2>
-              <p>Nos enfocamos en tus necesidades particulares medicas y personales de fetilidad.</p>
+              <h2 class="fs-secondary-heading fw-bold">
+                ¿Qué hace a diferente PROGEN?
+              </h2>
+              <p>
+                Nos enfocamos en tus necesidades particulares medicas y
+                personales de fetilidad.
+              </p>
             </div>
             <div>
               <ul class="unumbered-list | flow" role="list">
                 <li>
                   <div class="flow-sm">
-                    <h3 class="unumbered-list__title | fs-600 fw-bold">Confianza</h3>
-                    <p class="unumbered-list__body" data-width="wide">Te ofrecemos las mejores opciones de tratamiento de acuerdo al diagnóstico.</p>
+                    <h3 class="unumbered-list__title | fs-600 fw-bold">
+                      Confianza
+                    </h3>
+                    <p class="unumbered-list__body" data-width="wide">
+                      Te ofrecemos las mejores opciones de tratamiento de
+                      acuerdo al diagnóstico.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div class="flow-sm">
-                    <h3 class="unumbered-list__title | fs-600 fw-bold">Dedicación</h3>
-                    <p class="unumbered-list__body" data-width="wide">Te otorgamos el tiempo y apoyo apropiado para el diagnóstico.</p>
+                    <h3 class="unumbered-list__title | fs-600 fw-bold">
+                      Dedicación
+                    </h3>
+                    <p class="unumbered-list__body" data-width="wide">
+                      Te otorgamos el tiempo y apoyo apropiado para el
+                      diagnóstico.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div class="flow-sm">
-                    <h3 class="unumbered-list__title | fs-600 fw-bold">Compromiso</h3>
-                    <p class="unumbered-list__body" data-width="wide">Te damos tranquilidad y esperanza con tratamientos adecuados.</p>
+                    <h3 class="unumbered-list__title | fs-600 fw-bold">
+                      Compromiso
+                    </h3>
+                    <p class="unumbered-list__body" data-width="wide">
+                      Te damos tranquilidad y esperanza con tratamientos
+                      adecuados.
+                    </p>
                   </div>
                 </li>
               </ul>
@@ -86,80 +143,166 @@
         </div>
       </section>
 
-      <section class="carousel | padding-block-700">
+      <section class="carousel | padding-block-700 text-center">
         <h2 class="fs-secondary-heading fw-bold">Lo que dicen de nosotros</h2>
         <!-- Carrusel aqui -->
-        <a href="testimonios.html" class="button">Ver testimonios</a>
+        <ul class="slider">
+          <li>
+            <img src="img/avatar-1.png" alt="" />
+            <div class="slider-content | flow-sm">
+              <h3 class="fw-bold">Lupita</h3>
+              <p data-width="wide">
+                "PROGEN nos dio nuestro primer bebe Emiliano y después nació mi
+                princesa Monse. Lo que les puedo decir, no dejen de luchar por
+                su sueño, la clínica de PROGEN es la mejor en Zacatecas para
+                lograrlo, mil gracias a todos los doctores y enfermeras que lo
+                hicieron posible."
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="img/avatar-2.png" alt="" />
+            <div class="slider-content | flow-sm">
+              <h3 class="fw-bold">Yoli</h3>
+              <p data-width="wide">
+                “PROGEN fue para nosotros una luz en un camino oscuro cuando ya
+                no teníamos ninguna esperanza, con su gran equipo de
+                especialistas nos apoyaron y ahora somos muy felices con nuestro
+                gran tesoro, el trato de todos siempre fue de lo mejor y
+                estaremos siempre agradecidos.”
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="img/avatar-3.png" alt="" />
+            <div class="slider-content | flow-sm">
+              <h3 class="fw-bold">Isabel</h3>
+              <p data-width="wide">
+                “Agradezco a PROGEN por haberme ayudado a realizar mi sueño de
+                ser mamá, y puedo decir que es lo mas bonito que me ha pasado en
+                el mundo, por ellos tengo hoy a mis dos amores, mis hijos.”
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="img/avatar-4.png" alt="" />
+            <div class="slider-content | flow-sm">
+              <h3 class="fw-bold">Claudia</h3>
+              <p data-width="wide">
+                "Gracias a PROGEN por haber hecho realidad mi sueño de ser
+                madre, algo que pensé que nunca llegaría, siendo madre de un
+                hermoso varoncito que lleno mi mundo de amor y felicidad, si
+                quieren un bebé luchen por él, no se queden con las ganas,
+                PROGEN es tu mejor opción."
+              </p>
+            </div>
+          </li>
+        </ul>
+        <!-- <a href="testimonios.html" class="button">Ver testimonios</a> -->
       </section>
 
-      <section class=" cta | bg-accent-400 text-neutral-900 padding-block-900">
+      <section class="cta | bg-accent-400 text-neutral-900 padding-block-900">
         <div class="container">
           <div class="even-columns">
             <div>
-              <h2 class="fs-secondary-heading fw-bold margin-bottom-500">Tu camino con PROGEN</h2>
+              <h2 class="fs-secondary-heading fw-bold margin-bottom-500">
+                Tu camino con PROGEN
+              </h2>
             </div>
             <div class="flow">
               <ol class="numbered-list | flow" role="list">
                 <li>
                   <div class="flow-sm">
-                    <h3 class="numbered-list__title | fs-600 fw-bold">Primera cita</h3>
-                    <p class="numbered-list__body" data-width="wide">Realizamos una valoración inicial de tu salud y de tu pareja y se piden estudios complementarios.</p>
+                    <h3 class="numbered-list__title | fs-600 fw-bold">
+                      Primera cita
+                    </h3>
+                    <p class="numbered-list__body" data-width="wide">
+                      Realizamos una valoración inicial de tu salud y de tu
+                      pareja y se piden estudios complementarios.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div class="flow-sm">
-                    <h3 class="numbered-list__title | fs-600 fw-bold">Diagnostico</h3>
-                    <p class="numbered-list__body" data-width="wide">Revisamos los estudios complementarios para confirmar tus características particulares de fertilidad y de tu pareja.</p>
+                    <h3 class="numbered-list__title | fs-600 fw-bold">
+                      Diagnostico
+                    </h3>
+                    <p class="numbered-list__body" data-width="wide">
+                      Revisamos los estudios complementarios para confirmar tus
+                      características particulares de fertilidad y de tu pareja.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div class="flow-sm">
-                    <h3 class="numbered-list__title | fs-600 fw-bold">Tratamiento</h3>
-                    <p class="numbered-list__body" data-width="wide">Una vez concluido el diagnostico, te proponemos el tratamiento adecuado para ti y de tu pareja, con base en el diagnóstico.</p>
+                    <h3 class="numbered-list__title | fs-600 fw-bold">
+                      Tratamiento
+                    </h3>
+                    <p class="numbered-list__body" data-width="wide">
+                      Una vez concluido el diagnostico, te proponemos el
+                      tratamiento adecuado para ti y de tu pareja, con base en
+                      el diagnóstico.
+                    </p>
                   </div>
                 </li>
                 <li>
                   <div class="flow-sm">
-                    <h3 class="numbered-list__title | fs-600 fw-bold">Seguimiento</h3>
-                    <p class="numbered-list__body" data-width="wide">Te acompañamos en cada paso del tratamiento.</p>
+                    <h3 class="numbered-list__title | fs-600 fw-bold">
+                      Seguimiento
+                    </h3>
+                    <p class="numbered-list__body" data-width="wide">
+                      Te acompañamos en cada paso del tratamiento.
+                    </p>
                   </div>
                 </li>
               </ol>
-              <a href="servicios.html" class="button" data-type="inverted">Conoce nuestros servicios</a>
+              <div class="text-align--cl">
+                <a href="servicios.html" class="button" data-type="inverted"
+                  >Conoce nuestros servicios</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="primary-footer | bg-neutral-900 text-neutral-100 padding-block-700">
+    <footer
+      class="primary-footer | bg-neutral-900 text-neutral-100 padding-block-700"
+    >
       <div class="container">
         <div class="primary-footer-wrapper">
-
           <div class="footer--logo | flex-column">
             <a href="index.html">
-              <img src="img/logo-blanco.svg" alt="Progen">
+              <img src="img/logo-blanco.svg" alt="Progen" />
             </a>
             <p>© Copyright CENFERZAC.</p>
           </div>
 
           <div class="footer--links">
             <nav class="footer-nav">
-              <ul class="flow-sm" data-spacing="tight" aria-label="Footer" role="list">
+              <ul
+                class="flow-sm"
+                data-spacing="tight"
+                aria-label="Footer"
+                role="list"
+              >
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Nuestro Proceso</a></li>
                 <li><a href="#">Nuestros Servicios</a></li>
-                <li><a href="#">Testimonios</a></li>
+                <!-- <li><a href="#">Testimonios</a></li> -->
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Red Lara</a></li>
                 <li><a href="#">Políticas de privacidad</a></li>
               </ul>
-            </nav> 
+            </nav>
           </div>
 
           <div class="footer--adress">
             <address class="flex-column flow-sm">
-              <span><a class="address-link" href="#">info@progenzac.com</a></span>
+              <span
+                ><a class="address-link" href="#">info@progenzac.com</a></span
+              >
               <span><a class="address-link" href="#">(492)-922-5003</a></span>
               <p class="flex-column flow-sm">
                 <span>Av. García Salinas #15e</span>
